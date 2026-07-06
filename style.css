@@ -1,4 +1,4 @@
-/* Reset */
+* Reset */
 
 *{
     margin:0;
@@ -448,16 +448,19 @@ body{
 }
 .project-card .btn{
     display:inline-block;
-    margin-top:15px;
-    padding:12px 24px;
-    background:#ffb347;
-    color:#111;
+    margin-top:20px;
+    padding:12px 28px;
+    background:#ff8c00;
+    color:#fff;
+    text-decoration:none;
     border-radius:30px;
+    font-size:16px;
     font-weight:600;
-    transition:.3s;
+    transition:0.3s ease;
 }
 
 .project-card .btn:hover{
-    background:#fff;
+    background:#ffa733;
     transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(255,140,0,0.35);
 }
